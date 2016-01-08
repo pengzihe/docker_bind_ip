@@ -8,7 +8,7 @@ import docker,os,time
 
 try:
 	connect = docker.Client(base_url='unix:///var/run/docker.sock',version='1.6.2',timeout=120)
-	print connect.version()
+#	print connect.version()
 except:
 	exit()
 
